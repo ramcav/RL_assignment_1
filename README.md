@@ -8,7 +8,7 @@ For Jack's car problem, we implemented the solution within the same file in a ne
 ![Final Policy with New Reward](final_policy_new_rew.svg)
 
 #### Original Reward Function
-![Final Policy with Original Reward](final_policy_original_rew.svg)
+![Final Policy with Original Reward](final_policy_org_rew.svg)
 
 ## Problem 2
 
