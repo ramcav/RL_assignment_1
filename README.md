@@ -12,3 +12,22 @@ For Jack's car problem, we implemented the solution within the same file in a ne
 
 ## Problem 2
 
+*Off-Policy Monte Carlo Control with Weighted Importance Sampling*
+
+
+We implemented Off-Policy Monte Carlo (MC) Control using Weighted Importance Sampling to estimate the optimal policy. The method allows learning an optimal policy while following a different behavior policy, adjusting for discrepancies using importance sampling techniques.
+
+
+The algorithm follows the Off-Policy MC Control framework, updating action-value estimates 
+𝑄(𝑠,𝑎) using weighted returns.
+The behavior policy generates episodes, while the target policy is refined over time.
+Weighted Importance Sampling corrects for the difference between the behavior and target policies, ensuring unbiased updates.
+The algorithm maintains an exploring starts condition to ensure all state-action pairs are visited.
+Updates are applied incrementally using ordinary importance sampling and weighted importance sampling.
+
+*Results:*
+
+
+Policy visualization: Illustrates the optimal actions learned through off-policy MC control.
+Q-value estimates: Shows how the action-value function converges over time.
+Comparison of sampling methods: Highlights the effects of ordinary vs. weighted importance sampling on policy learning.
